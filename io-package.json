@@ -4,7 +4,7 @@
     "version": "1.3.22",
     "news": {
       "1.3.22": {
-        "en": "Possible fix for double-events",
+        "en": "Possible fix for double-events"
       },
       "1.3.21": {
         "en": "added schedule to object definition\nchanged limit for duration to 999999",
