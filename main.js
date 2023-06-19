@@ -773,6 +773,7 @@ async function getAutoUpdates() {
   }
 
   if (user !== null && host !== null && port !== null) {
+    if (ws !== null) ws.terminate();
     ws = new WebSocket("ws://" + host + ":" + port);
 
     ws.on("open", () => {
